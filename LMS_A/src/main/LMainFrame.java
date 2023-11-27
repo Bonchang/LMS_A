@@ -1,6 +1,7 @@
 package main;
 import javax.swing.JFrame;
 import java.awt.BorderLayout;
+import java.awt.Dimension;
 
 public class LMainFrame extends JFrame {
     private static final long serialVersionUID = 1L;
@@ -17,6 +18,7 @@ public class LMainFrame extends JFrame {
 
         // Directory panel
         this.directoryPanel = new LDirectoryPanel();
+        this.directoryPanel.setPreferredSize(new Dimension(200, this.getHeight()));
         this.add(this.directoryPanel, BorderLayout.WEST);
 
         // Menu bar
