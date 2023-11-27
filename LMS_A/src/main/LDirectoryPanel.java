@@ -1,3 +1,4 @@
+package main;
 import javax.swing.JPanel;
 import javax.swing.JTree;
 import javax.swing.tree.DefaultMutableTreeNode;
@@ -33,6 +34,5 @@ public class LDirectoryPanel extends JPanel {
                 }
             }
         }
-        // 파일인 경우, 추가 로직은 필요하지 않음
     }
 }

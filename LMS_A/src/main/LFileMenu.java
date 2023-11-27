@@ -1,3 +1,4 @@
+package main;
 import javax.swing.JMenu;
 
 public class LFileMenu extends JMenu {

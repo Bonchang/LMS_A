@@ -1,3 +1,4 @@
+package main;
 import javax.swing.JMenuBar;
 
 public class LMenuBar extends JMenuBar {
