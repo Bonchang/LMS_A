@@ -29,8 +29,6 @@ public class LMainFrame extends JFrame {
         this.mainPanel = new LMainPanel();
         this.add(this.mainPanel, BorderLayout.CENTER);
     }
-
-    // 필요한 경우 추가 메소드 구현
 }
 
 

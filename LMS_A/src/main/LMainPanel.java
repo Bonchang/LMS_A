@@ -9,7 +9,7 @@ public class LMainPanel extends JPanel {
 	private static final long serialVersionUID = 1L;
 
 	public LMainPanel() {
-		this.setBackground (Color.BLUE);
+		this.setBackground (Color.GRAY);
 	}
 
 }

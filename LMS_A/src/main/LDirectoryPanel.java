@@ -7,7 +7,8 @@ import java.awt.BorderLayout;
 import java.io.File;
 
 public class LDirectoryPanel extends JPanel {
-    private JTree directoryTree;
+    private static final long serialVersionUID = 1L;
+	private JTree directoryTree;
 
     public LDirectoryPanel() {
         this.setLayout(new BorderLayout());
